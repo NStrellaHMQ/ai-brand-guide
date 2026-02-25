@@ -1,6 +1,3 @@
-# HIVEMQ CORE BRAND IDENTITY
-This is the single source of truth for all HiveMQ visual generations.
-
 ## 1. COLOR BALANCE & THEMES
 Always adhere to these ratios to ensure visual balance and accessibility.
 
