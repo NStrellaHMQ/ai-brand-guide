@@ -1,4 +1,4 @@
-# Brand Color Palette
+# Data Visualization Color Palette
 
 ### 1. Neutral
 | Level | Hex Code |
@@ -16,7 +16,7 @@
 | Tint 2 | `#A9E2FB` |
 | Tint 3 | `#C9EDFD` |
 
-### 3. Steel Blue
+### 3. Teal
 | Level | Hex Code |
 | :--- | :--- |
 | Primary | `#037DA5` |
@@ -24,7 +24,7 @@
 | Tint 2 | `#9ACBDB` |
 | Tint 3 | `#C0DEE9` |
 
-### 4. Gold
+### 4. Yellow
 | Level | Hex Code |
 | :--- | :--- |
 | Primary | `#FFC000` |
