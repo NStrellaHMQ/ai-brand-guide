@@ -1,0 +1,60 @@
+{
+  "brand_identity": {
+    "name": "HiveMQ",
+    "visual_voice": "Engineered, precise, tech-forward, and clutter-free",
+    "aesthetic_principles": [
+      "Geometric alignment",
+      "High-performance technical feel",
+      "Professional (avoiding 'cutesy' AI tropes)"
+    ]
+  },
+  "color_palette": {
+    "primary_yellow": "#FFC000",
+    "teal_accent": "#037DA5",
+    "neutrals": {
+      "white": "#FFFFFF",
+      "black": "#000000",
+      "charcoal": "Dark Neutral"
+    },
+    "themes": {
+      "light_default": {
+        "canvas_white_neutrals": "50-70%",
+        "primary_elements_yellow": "10-30%",
+        "text_structural_black": "10-20%",
+        "accents_teal": "0-10%"
+      },
+      "dark_high_impact": {
+        "canvas_black_charcoal": "50-70%",
+        "highlights_yellow": "10-30%",
+        "text_labels_white": "10-20%",
+        "accents_glow_teal": "0-10%"
+      }
+    },
+    "constraints": {
+      "teal_usage": "Functional only (data points/success states). No large backgrounds or primary headings.",
+      "contrast_aa": "Text on Yellow must be Black (#000000). Never use White or Teal on Yellow."
+    }
+  },
+  "typography": {
+    "headlines": {
+      "font_family": "Raleway",
+      "style": "Bold or Semi-Bold",
+      "description": "Modern, structured geometric sans-serif",
+      "case": "Sentence case"
+    },
+    "body_copy": {
+      "font_family": "Roboto",
+      "style": "Regular",
+      "description": "Mechanical, friendly, high-legibility sans-serif"
+    },
+    "hierarchy": "Minimum 2:1 size ratio between Headlines and Body"
+  },
+  "logo_guidelines": {
+    "integrity": "Use provided assets only; no alterations.",
+    "safe_zone": "Clear space equal to the height of the 'H' in HiveMQ."
+  },
+  "accessibility": {
+    "standard": "WCAG 2.1 AA",
+    "color_reliance": "Do not use color alone to convey meaning; include labels or icons."
+  }
+}
