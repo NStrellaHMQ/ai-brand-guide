@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M51.9639 6H12.0361V60.0396H51.9639V6ZM12.0361 5H11.0361V6V60.0396V61.0396H12.0361H51.9639H52.9639V60.0396V6V5H51.9639H12.0361Z" fill="black"/>
+<rect x="17.6553" y="10.8037" width="11.8835" height="6.62848" stroke="black"/>
+<rect x="17.6553" y="22.5518" width="11.8835" height="6.62848" stroke="black"/>
+<rect x="34.4976" y="10.8037" width="11.8835" height="6.62848" stroke="black"/>
+<rect x="34.4976" y="22.5518" width="11.8835" height="6.62848" stroke="black"/>
+<rect x="17.6553" y="32.5172" width="11.8835" height="6.62848" stroke="black"/>
+<rect x="17.6553" y="44.2651" width="11.8835" height="6.62848" stroke="black"/>
+<rect x="34.4976" y="32.5172" width="11.8835" height="6.62848" stroke="black"/>
+<rect x="34.4976" y="44.2651" width="11.8835" height="16.2746" fill="#FFC000" stroke="black"/>
+</svg>
