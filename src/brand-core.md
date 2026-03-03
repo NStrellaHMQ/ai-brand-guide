@@ -15,15 +15,23 @@ Use this for high-impact slides, developer-focused content, engaging visuals, or
 - **White & Light Neutrals (10–20%):** Use strictly for body text and secondary labels to prevent eye strain.
 - **Teal (#037DA5) (0–10%):** Use for subtle accents or glow effects.
 
-## Teal Constraint: Teal should never be used for large backgrounds or primary headings. It is a "functional" color for data points (like a 'Success' state) rather than a "decorative" color.
+**Teal Constraint:** Teal should never be used for large backgrounds or primary headings. It is a "functional" color for data points rather than a "decorative" color.
 
+---
 
-## 2. TYPOGRAPHY & TEXT HIERARCHY
+## 2. VISUAL STYLE, FINISH & ICONOGRAPHY
+- **Texture:** Use flat design principles. Avoid 3D skeuomorphism, heavy drop shadows, or photographic textures.
+- **Precision:** Use geometric alignment and sharp 90-degree angles. Visuals should feel "engineered," not "artistic".
+- **Iconography:** Use "Outlined" style icons with a consistent stroke weight. Fill the interior of the icons with **#FFC000**.
+
+---
+
+## 3. TYPOGRAPHY & TEXT HIERARCHY
 Maintain a clear distinction between headlines and body copy to reflect the HiveMQ visual identity.
 
 ### Headlines: Raleway
 - **Usage:** All slide titles, section headers, and primary labels.
-- **Style:** Bold or Semi-Bold. Raleway is a geometric sans-serif; ensure the AI describes this as "modern and structured."
+- **Style:** Bold or Semi-Bold. Raleway is a modern and structured geometric sans-serif.
 - **Case:** Use Sentence case for readability unless a "High-Impact" title is required.
 
 ### Body Copy: Roboto
@@ -31,26 +39,23 @@ Maintain a clear distinction between headlines and body copy to reflect the Hive
 - **Style:** Regular weight. Roboto is a mechanical yet friendly sans-serif designed for high legibility.
 - **Hierarchy:** Ensure a minimum 2:1 size ratio between Headlines and Body copy to maintain visual flow.
 
+---
 
-## 3. ACCESSIBILITY & CONTRAST (WCAG 2.1 AA)
+## 4. ACCESSIBILITY & CONTRAST (WCAG 2.1 AA)
 All generations must pass AA accessibility standards. Do not compromise legibility for style.
 
 ### Contrast Requirements
 - **Text on White/Light:** Always use **Black (#000000)** or Dark Neutrals for body text.
-- **Text on Yellow (#FFC000):** Only use **Black (#000000)**. Never use White or Teal text on top of a Yellow background, as it fails contrast checks.
+- **Text on Yellow (#FFC000):** Only use **Black (#000000)**. Never use White or Teal text on top of a Yellow background.
 - **Text on Dark Theme:** Use **White (#FFFFFF)** for body text and **Yellow (#FFC000)** for headlines.
 
 ### Visual Accessibility Rules
-- **Color Reliance:** Do not use color (like Teal) as the *only* way to convey meaning in a diagram; use labels or icons as well.
+- **Color Reliance:** Do not use color as the *only* way to convey meaning in a diagram; use labels or icons as well.
 
-## 4. BRAND VOICE (VISUAL)
+---
+
+## 5. BRAND VOICE & LOGO
 - **Clarity:** Every visual must be "clutter-free." If an element doesn't add value, remove it.
-- **Precision:** Use geometric alignment. HiveMQ is a technical, high-performance brand; visuals should feel "engineered," not "artistic."
 - **Professionalism:** Avoid "cutesy" or overly "friendly" AI tropes. Stay sleek and tech-forward.
-
-## 5. Logo "Safe Zone" & Treatment
-
-- Logo Integrity: Never alter the HiveMQ logo; use the provided SVG/PNG assets only.
-- Clear Space: Maintain a "safe zone" around the logo equal to the height of the 'H' in HiveMQ to ensure visibility.
-
-
+- **Logo Integrity:** Never alter the HiveMQ logo; use provided assets only.
+- **Clear Space:** Maintain a "safe zone" around the logo equal to the height of the 'H' in HiveMQ.
