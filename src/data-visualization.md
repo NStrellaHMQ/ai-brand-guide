@@ -20,7 +20,7 @@
 | Tint 2 | `#A9E2FB` | 3 |
 | Tint 3 | `#C9EDFD` | 4 |
 
-### 3. Steel Blue
+### 3. Teal
 | Level | Hex Code | Usage Priority |
 | :--- | :--- | :--- |
 | **Primary** | `#037DA5` | **1 (Highest)** |
