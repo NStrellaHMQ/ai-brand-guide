@@ -9,7 +9,7 @@
 ## 2. Light Theme Profile
 * **Canvas (60–70%):** White. Focus on maximum breathable white space.
 * **Primary Highlight (10–30%):** Yellow. Use for nodes, title bars, and key elements.
-* **Details and Accents (10–20%):** Black. Use for text, borders, structural lines and smaller components.
+* **Details and Accents (10–20%):** Black. Use for text, borders, structural lines and small accents.
 * **Tertiary Accent (0–5%):** Teal. Very limited use for small accents only.
 
 ## 3. Dark Theme Profile
