@@ -77,11 +77,6 @@ Our diagrams use a specific "geometry of intent" to distinguish between fixed sy
 | **Boundary Boxes** | Sharp Rectangles (Thin stroke or light fill) | Defines "zones," physical locations, or logical groupings. |
 | **Icons** | Minimalist 2D | Used sparingly inside or above nodes to provide instant visual context. |
 
-
-
-[Image of basic geometric shapes used in technical diagrams]
-
-
 ---
 
 ## 2. Connector Logic (Lines & Paths)
