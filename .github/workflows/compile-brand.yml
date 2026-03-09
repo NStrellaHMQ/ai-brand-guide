@@ -1,0 +1,44 @@
+name: Compile Brand Guidelines
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch: # This adds a manual "Play" button!
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create Guidelines Directory
+        run: mkdir -p Guidelines
+
+      - name: Compile All Configurations
+        run: |
+          rm -rf Guidelines/*
+          if [ -d "configs" ]; then
+            for config in configs/*.txt; do
+              filename=$(basename "$config" .txt)
+              while IFS= read -r src_file || [ -n "$src_file" ]; do
+                # Clean up carriage returns if file was created on Windows
+                clean_name=$(echo "$src_file" | tr -d '\r')
+                if [ -f "src/$clean_name" ]; then
+                  cat "src/$clean_name" >> "Guidelines/$filename.md"
+                  echo -e "\n\n---\n\n" >> "Guidelines/$filename.md"
+                fi
+              done < "$config"
+            done
+          fi
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Guidelines/*.md
+          git commit -m "Automated update" || exit 0
+          git push
