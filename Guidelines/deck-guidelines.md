@@ -91,16 +91,14 @@ When generating slide content or layout descriptions, apply these design pattern
 * **Scannability:** If a slide feels cluttered, break the content into a multi-column layout (2, 3, or 4 columns) to allow the eye to travel easily.
 
 ## 3. Typographic Accents & Hierarchy
-* **Anchor Rules:** Use a thin **Brand Gold horizontal rule** underneath headers to anchor the title to the page and provide a visual break.
+* **Anchor Rules:** Use a thin **#ffc000 horizontal rule line** underneath headers to anchor the title to the page and provide a visual break.
 * **Bold Emphasis:** Within sentences or bullet points, use **Bold Black text** for the most important keywords or metrics to allow for easy skimming.
-* **Branded Bullets:** Replace standard black dots with **Solid Gold Circles** to tie lists into the brand palette.
-* **Two-Tone Headers:** For high-impact titles (especially on dark backgrounds), experiment with split-color headers (e.g., Gold and White text).
+* **Two-Tone Headers:** For high-impact titles (especially on dark backgrounds), experiment with split-color headers (e.g., Yellow and White text).
 
-## 4. Geometric & Background Accents
-* **The "Angled Cut":** Use sharp, diagonal lines (approx. 5–8 degrees) to create visual interest. This is most effective when separating a dark header from a white body or as a decorative footer element.
+## 4. Background Accents
 * **Contrast Modes:** * **Dark Mode:** (Black backgrounds) for high-impact intro or transition slides.
-    * **Light Mode:** (White backgrounds) for data-heavy or informational slides.
-* **Icon Badging:** Use simple line-art icons. For added emphasis, place icons inside **Solid Gold Circular badges** to keep them uniform across a grid.
+* **Light Mode:** (White backgrounds) for data-heavy or informational slides.
+* **Icon Style:** Use simple line-art icons. For added emphasis, place icons inside **Solid #ffc000 Circular badges** to keep them uniform across a grid.
 
 ## 5. Data & Comparison Logic
 * **Clean Tables:** Keep tables minimalist. Use horizontal "zebra striping" and colored header cells, but avoid heavy vertical borders.
