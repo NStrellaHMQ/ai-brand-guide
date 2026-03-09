@@ -4,7 +4,7 @@
 **Role:** All primary headings (H1, H2), titles, and hero sections.
 - **Personality:** Modern, geometric, and elegant.
 - **Key Weight:** Bold (700) or Extra Bold (800).
-- **Styling Tip:** Use sentence case.
+- **Styling Tip:** Use sentence case. DO NOT use all caps.
 
 ## 2. Body & UI: Roboto
 **Role:** Paragraphs, bullet points, captions, and functional UI elements.
