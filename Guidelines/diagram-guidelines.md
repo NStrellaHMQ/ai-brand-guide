@@ -111,16 +111,13 @@ To ensure diagrams remain scannable and professional, follow these spatial rules
 * **Visual Balance:** Distribute peripheral nodes evenly around a central hub to ensure the "weight" of the diagram is centered.
 
 ---
-
 ## 5. Color Strategy (Functional Only)
 Color is used to encode the **type** of flow, not for aesthetic variety.
 
-* **The Focal Color:** Reserved for the most important "active" node or the core subject of the diagram.
-* **Structural Color:** Used for the physical "pipes," command lines, and primary nodes.
-* **Information Color:** Used for secondary "reporting" lines, performance metrics, or feedback loops.
-* **Subtle Context:** Used for boundary boxes or "background" systems that are present but not the focus.
-
----
+* **The Focal Color (Yellow):** Reserved for the most important "active" node or the core subject of the diagram.
+* **Structural Color (Black/Dark Grey):** Used for physical "pipes," command lines, and primary nodes. Use **Dark Grey** for secondary structural lines to provide depth without the weight of pure black.
+* **Information Color (Teal):** Used for secondary "reporting" lines, performance metrics, or feedback loops.
+* **Subtle Context (Medium/Light Grey):** Used for boundary boxes or "background" systems. Use **Medium Grey** for non-active paths and **Light Grey** for large containers or ghosted nodes that need to recede.
 
 
 ---
