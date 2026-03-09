@@ -1,5 +1,5 @@
+guardian.md
 color-palette.md
 typography.md
 brand-deck.md
-guardian.md
 anti-patterns.md
