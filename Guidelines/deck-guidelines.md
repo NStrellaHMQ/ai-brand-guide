@@ -98,8 +98,6 @@ When generating slide content or layout descriptions, apply these design pattern
 * **Color Progression:** For charts and tables, use a "warm-to-cool" color progression (Golds $\rightarrow$ Grays $\rightarrow$ Blues) to show growth or different segments.
 * **Neutral Labeling:** Place data labels (values/totals) directly above or inside elements in a neutral gray to avoid visual clutter.
 
----
-*Reference this file alongside 'brand-core.md' for specific color hex codes and font families.*
 
 
 ---
