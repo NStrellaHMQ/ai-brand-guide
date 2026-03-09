@@ -1,0 +1,48 @@
+name: Compile Brand Guidelines
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'configs/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create Guidelines Directory
+        run: mkdir -p Guidelines
+
+      - name: Compile All Configurations
+        run: |
+          # Clear out the old Guidelines to ensure a fresh build
+          rm -rf Guidelines/*
+          
+          # Loop through every .txt file in the configs folder
+          for config in configs/*.txt; do
+            # Get the name (e.g., "brand-core")
+            filename=$(basename "$config" .txt)
+            echo "Building $filename.md inside Guidelines..."
+            
+            # Read each line of the config and merge the corresponding src files
+            while IFS= read -r src_file || [ -n "$src_file" ]; do
+              if [ -f "src/$src_file" ]; then
+                cat "src/$src_file" >> "Guidelines/$filename.md"
+                echo -e "\n\n---\n\n" >> "Guidelines/$filename.md" # Adds a visual divider & spacing
+              else
+                echo "Warning: src/$src_file not found."
+              fi
+            done < "$config"
+          done
+
+      - name: Commit and Push to GitHub
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add Guidelines/*.md
+          git commit -m "Automated update of Brand Guidelines" || echo "No changes to commit"
+          git push
