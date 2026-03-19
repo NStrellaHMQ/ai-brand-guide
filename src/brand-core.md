@@ -55,7 +55,5 @@ All generations must pass AA accessibility standards. Do not compromise legibili
 ---
 
 ## 5. BRAND VOICE & LOGO
-- **Clarity:** Every visual must be "clutter-free." If an element doesn't add value, remove it.
-- **Professionalism:** Avoid "cutesy" or overly "friendly" AI tropes. Stay sleek and tech-forward.
 - **Logo Integrity:** Never alter the HiveMQ logo; use provided assets only.
 - **Clear Space:** Maintain a "safe zone" around the logo equal to the height of the 'H' in HiveMQ.
