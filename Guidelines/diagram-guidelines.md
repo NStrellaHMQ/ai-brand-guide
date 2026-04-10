@@ -44,7 +44,7 @@
 
 ## 2. Title Subline
 **Role:** When a title contains a primary statement followed by a descriptive subline
-- **Key Weight:** Regular (400)
+- **Key Weight:** Regular (400) or Medium (500)
 - **Styling Tip:** ~60-70% of the title font size, in Neutral Grey (#cccccc). Do not bold it.
   
 
@@ -63,7 +63,7 @@
 | :--- | :--- | :--- | :--- |
 | **Main Title** | Raleway | 800 | Impactful |
 | **Section Head** | Raleway | 700 | Modern & Structured |
-| **Subhead** | Roboto | 700 | Clear & Bold |
+| **Subhead** | Roboto | 500 | Clear & Bold |
 | **Body Text** | Roboto | 400 | Readable & Functional |
 | **Small Print** | Roboto | 500 | Efficient & Compact |
 
