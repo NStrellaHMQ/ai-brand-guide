@@ -16,6 +16,7 @@ When generating slide content or layout descriptions, apply these design pattern
 * **Anchor Rules:** Use a thin **#ffc000 horizontal rule line** underneath headers to anchor the title to the page and provide a visual break.
 * **Bold Emphasis:** Within sentences or bullet points, use **Bold Black text** for the most important keywords or metrics to allow for easy skimming.
 * **Two-Tone Headers:** For high-impact titles (especially on dark backgrounds), experiment with split-color headers (e.g., Yellow and White text).
+* * **Horizontal Rule Lines:** The horizontal rule must sit 0.1–0.15 inches below the last line of the title block with no extra gap. It anchors to the text, not to a fixed slide position.
 
 ## 4. Background Accents
 * **Contrast Modes:** * **Dark Mode:** (Black backgrounds) for high-impact intro or transition slides.
