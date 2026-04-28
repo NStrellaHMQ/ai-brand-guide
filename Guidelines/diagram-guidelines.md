@@ -38,16 +38,15 @@
 
 ## 1. Primary Heading: Raleway
 **Role:** All primary headings (H1, H2), titles, and hero sections.
-- **Personality:** Modern, geometric, and elegant.
-- **Key Weight:** Bold (700) or Extra Bold (800).
-- **Styling Tip:** Use sentence case. DO NOT use all caps.
+- **Key Weight:** **Light (300)** for large hero headlines; **Bold (700)** for standard section headers.
+- **Styling Tip:** Use the **Light (300)** weight for high-impact, large-scale headlines to achieve an elegant, minimal look. Use **Bold (700+)** when the header needs to act as a clear structural anchor for the content below. 
+- **Constraint:** Use sentence case. DO NOT use all caps.
 
 ## 2. Title Subline
-**Role:** When a title contains a primary statement followed by a descriptive subline
-- **Key Weight:** Regular (400) or Medium (500)
-- **Styling Tip:** ~60-70% of the title font size, in Neutral Grey (#cccccc). Do not bold it.
+**Role:** When a title contains a primary statement followed by a descriptive subline.
+- **Key Weight:** Regular (400) or Medium (500).
+- **Styling Tip:** Set size to ~60-70% of the title font size, using Neutral Grey (#cccccc). Do not bold it.
   
-
 
 ## 3. Body & UI: Roboto
 **Role:** Paragraphs, bullet points, captions, and functional UI elements.
@@ -61,7 +60,7 @@
 
 | Element | Font | Weight | Character |
 | :--- | :--- | :--- | :--- |
-| **Main Title** | Raleway | 800 | Impactful |
+| **Main Title** | Raleway | 300 | Impactful |
 | **Section Head** | Raleway | 700 | Modern & Structured |
 | **Subhead** | Roboto | 500 | Clear & Bold |
 | **Body Text** | Roboto | 400 | Readable & Functional |
